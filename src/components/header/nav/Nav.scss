@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  gap: 2rem;
+
+  li {
+    list-style: none;
+
+    a {
+      color: black;
+      font-family: 'Karla', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}
