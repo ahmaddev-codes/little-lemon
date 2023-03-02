@@ -1,0 +1,62 @@
+@import "../../../variable.scss";
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 17rem;
+  background: $primary;
+  gap: 15rem;
+
+  .main__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    &__header {
+      h1 {
+        color: $secondary;
+        font-family: $markazi;
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      h3 {
+        color: white;
+        font-family: $markazi;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+
+    p {
+      color: white;
+      font-family: $karla;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      padding-right: 22rem;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 1rem;
+      background: $secondary;
+      color: $primary;
+      font-weight: 600;
+      border-radius: 8px;
+    }
+  }
+
+  img {
+    position: absolute;
+    width: 15rem;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 47%;
+  }
+}

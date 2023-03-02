@@ -1,8 +1,8 @@
 import React from "react";
-import Main from "../main/Main";
-import Highlight from "../highlight/Highlight";
-import Testimonial from "../testimonial/Testimonial";
-import About from "../about/About";
+import Main from "../homepage/main/Main";
+import Highlight from "../homepage/highlight/Highlight";
+import Testimonial from "../homepage/testimonial/Testimonial";
+import About from "../homepage/about/About";
 
 const HomePage = () => {
   return (
