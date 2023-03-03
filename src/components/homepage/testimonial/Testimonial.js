@@ -1,11 +1,11 @@
 import React from "react";
 import "../../homepage/testimonial/Testimonial.scss";
+import { AiFillStar } from "react-icons/ai";
+import { FaStarHalfAlt } from "react-icons/fa";
 import user1 from "../../../assets/user1.png";
 import user2 from "../../../assets/user2.png";
 import user3 from "../../../assets/user3.png";
 import user4 from "../../../assets/user4.png";
-import { AiFillStar } from "react-icons/ai";
-import { FaStarHalfAlt } from "react-icons/fa";
 
 
 const Testimonial = () => {
@@ -60,7 +60,7 @@ const Testimonial = () => {
         })}
       </div>
     </section>
-  );
+  )
 };
 
 export default Testimonial;
