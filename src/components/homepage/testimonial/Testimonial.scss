@@ -1,0 +1,62 @@
+@import "../../../variable.scss";
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 17rem;
+  background: $primary;
+
+  h2 {
+    font-size: 2rem;
+    color: $secondary;
+    padding-bottom: 1rem;
+    font-family: $markazi;
+  }
+
+  .users {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+
+    .user {
+      background: white;
+      border-radius: 8px;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+      }
+
+      .rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem 0;
+
+        h3 {
+          margin: 0;
+        }
+
+        &__number {
+          svg {
+            color: #ffd700;
+          }
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding: 1rem;
+        margin: 0;
+      }
+    }
+  }
+}

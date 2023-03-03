@@ -3,6 +3,7 @@ import "../highlight/Highlight.scss"
 import greekSalad from "../../../assets/greek-salad.png";
 import bruchetta from "../../../assets/bruchetta.png";
 import lemonDessert from "../../../assets/lemon-dessert.png";
+import { MdDeliveryDining } from "react-icons/md"
 
 const Highlight = () => {
   const data = [
@@ -47,7 +48,7 @@ const Highlight = () => {
               </div>
               <p>{data.detail}</p>
               <a href="/order" target="_blank">
-                Order a delivery
+                Order a delivery&ensp;<MdDeliveryDining />
               </a>
             </article>
           );
