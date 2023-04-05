@@ -1,0 +1,35 @@
+@import "../../variable.scss";
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 17rem 4rem;
+  width: 100%;
+  background: $primary;
+
+  &__links {
+    display: flex;
+    gap: 5rem;
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      color: $secondary;
+
+      h3 {
+        font-size: 1.6rem;
+        font-family: $markazi;
+        margin: 0;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: $secondary;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
