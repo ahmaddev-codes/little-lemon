@@ -15,7 +15,7 @@ const Main = () => {
           and classic cocktails in a lively but casual environment. The
           restaurant features a locally-sourced menu and with Daily specials.
         </p>
-        <a href="/reserve">Reserve a Table</a>
+        <a href="/booking">Reserve a Table</a>
       </div>
 
       <img src={Image} alt="main restaurant" />
